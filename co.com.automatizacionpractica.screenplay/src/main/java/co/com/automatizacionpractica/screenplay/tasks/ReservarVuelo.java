@@ -2,17 +2,10 @@ package co.com.automatizacionpractica.screenplay.tasks;
 
 import java.util.List;
 
-import org.jsoup.safety.Cleaner;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-
-import com.openhtmltopdf.css.parser.property.PrimitivePropertyBuilders.Clear;
 
 import co.com.automatizacionpractica.screenplay.interactions.SeleccionarLista;
 import co.com.automatizacionpractica.screenplay.model.DatosReserva;
 import co.com.automatizacionpractica.screenplay.userinterface.PaginaReservaDeVuelo;
-import net.serenitybdd.core.Serenity;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;

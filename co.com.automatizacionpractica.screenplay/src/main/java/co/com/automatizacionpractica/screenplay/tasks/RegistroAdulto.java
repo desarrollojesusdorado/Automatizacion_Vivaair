@@ -2,14 +2,12 @@ package co.com.automatizacionpractica.screenplay.tasks;
 
 import java.util.List;
 
-import org.openqa.selenium.WebDriver;
+
 
 import co.com.automatizacionpractica.screenplay.interactions.SeleccionarLista;
 import co.com.automatizacionpractica.screenplay.model.DatosAdultos;
 import co.com.automatizacionpractica.screenplay.userinterface.PaginaRegistroDatosPersona;
-import net.serenitybdd.core.Serenity;
 import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
